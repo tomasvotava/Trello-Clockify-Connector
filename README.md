@@ -16,7 +16,7 @@ See *sample-config.json* file for directives.
 **Note: The help system (-h, -trello, -clockify and -configure parameters) does not work for now.**
 
 ## Warning
-*Keep your API keys and tokens as private as possible.**
+**Keep your API keys and tokens as private as possible.**
 
 ## Requirements
 ### Python 3
