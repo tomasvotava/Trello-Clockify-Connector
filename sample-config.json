@@ -1,0 +1,15 @@
+{
+	"config": {
+		"format": "%{tags}s: %{name}s"
+	},
+	"trello": {
+		"api-key": "Your-Trello-API-Key",
+		"access-token": "Your-Trello-Access-Token",
+		"dashboard": "dashboard-id"
+	},
+	"clockify": {
+		"api-key": "Your-Clockify-API-Key",
+		"workspace": "workspace-id",
+		"project": "project-id"
+	}
+}
