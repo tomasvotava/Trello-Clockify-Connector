@@ -30,3 +30,19 @@ or
 ```
 python3 -m pip install requests
 ```
+
+## Setting up as automatic cron job
+- Make the script executable
+```
+chmod u+x feed.py
+```
+
+- Open crontab
+```
+crontab -e
+```
+
+- Add desired cron settings (e.g. run every 15 minutes):
+```
+*/15 * * * * /full/path/to/feed.py --config /full/path/to/config.json
+```
