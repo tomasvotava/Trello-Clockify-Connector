@@ -1,6 +1,7 @@
 {
 	"config": {
-		"format": "%{tags}s: %{name}s"
+		"format": "%(tags)s: %(name)s",
+		"skip-tagless": true
 	},
 	"trello": {
 		"api-key": "Your-Trello-API-Key",
